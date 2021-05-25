@@ -49,7 +49,7 @@ Opção: '''))
 			elif jogador == 2:
 				print('EMPATE')
 		
-		input('\nPressione qualquer tecla para jogar de novo ')
+		input('\nPressione ENTER para jogar de novo ')
 	else:
 		print('Opção INVÁLIDA')
-		input('\nPressione qualquer tecla para jogar de novo ')
+		input('\nPressione ENTER para jogar de novo ')
