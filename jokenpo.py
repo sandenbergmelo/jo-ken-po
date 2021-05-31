@@ -1,7 +1,10 @@
 from random import randint
 from time import sleep
+from emoji import emojize as emoji
 
-itens = ('Pedra', 'Papel', 'Tesoura')
+itens = (emoji('Pedra :fist:', use_aliases=True),
+		emoji('Papel :hand:', use_aliases=True),
+		emoji('Tesoura :v:', use_aliases=True))
 
 while True:
 	computador = randint(0, 2)
