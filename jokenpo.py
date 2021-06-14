@@ -1,6 +1,7 @@
 from random import randint
 from time import sleep
 from emoji import emojize as emoji
+from os import system, name
 
 itens = (emoji('Pedra :fist:', use_aliases=True),
 		emoji('Papel :hand:', use_aliases=True),
@@ -8,6 +9,10 @@ itens = (emoji('Pedra :fist:', use_aliases=True),
 
 while True:
 	computador = randint(0, 2)
+
+	print('-=' * 10)
+	print('Jo Ken Po!'.center(20))
+	print('-=' * 10)
 
 	jogador = int(input('''O que vai jogar?
 [0] Pedra
@@ -53,6 +58,7 @@ Opção: '''))
 				print('EMPATE')
 		
 		input('\nPressione ENTER para jogar de novo ')
+		system('cls' if name == 'nt' else 'clear')
 	else:
 		print('Opção INVÁLIDA')
 		input('\nPressione ENTER para jogar de novo ')
