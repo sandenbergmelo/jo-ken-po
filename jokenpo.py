@@ -1,5 +1,5 @@
-from random import randint
 from time import sleep
+from random import randint
 from os import system, name
 
 itens = ('Pedra ✊', 'Papel 🖐', 'Tesoura ✌')
