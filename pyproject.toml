@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "jo-ken-po"
+version = "0.1.0"
+description = ""
+authors = ["Sandenberg Ferreira Melo <sandenbergferreiramelo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "jo_ken_po"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+emoji = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

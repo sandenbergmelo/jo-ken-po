@@ -3,9 +3,9 @@ from time import sleep
 from emoji import emojize as emoji
 from os import system, name
 
-itens = (emoji('Pedra :fist:', use_aliases=True),
-		emoji('Papel :hand:', use_aliases=True),
-		emoji('Tesoura :v:', use_aliases=True))
+itens = (emoji('Pedra ✊'),
+		emoji('Papel 🖐'),
+		emoji('Tesoura ✌'))
 
 while True:
 	computador = randint(0, 2)
@@ -40,7 +40,7 @@ Opção: '''))
 				print('JOGADOR VENCEU')
 			elif jogador == 2:
 				print('COMPUTADOR VENCEU')
-			
+
 		elif computador == 1: # Computador escolheu PAPEL
 			if jogador == 0:
 				print('COMPUTADOR VENCEU')
@@ -48,7 +48,7 @@ Opção: '''))
 				print('EMPATE')
 			elif jogador == 2:
 				print('JOGADOR VENCEU')
-			
+
 		elif computador == 2: # Computador escolheu TESOURA
 			if jogador == 0:
 				print('JOGADOR VENCEU')
@@ -56,7 +56,7 @@ Opção: '''))
 				print('COMPUTADOR VENCEU')
 			elif jogador == 2:
 				print('EMPATE')
-		
+
 		input('\nPressione ENTER para jogar de novo ')
 		system('cls' if name == 'nt' else 'clear')
 	else:
