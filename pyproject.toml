@@ -2,7 +2,7 @@
 name = "jo-ken-po"
 version = "0.1.0"
 description = ""
-authors = ["Sandenberg Ferreira Melo <sandenbergferreiramelo@gmail.com>"]
+authors = ["Sandenberg Ferreira Melo <77549672+sandenbergmelo@users.noreply.github.com>"]
 readme = "README.md"
 packages = [{include = "jo_ken_po"}]
 
